@@ -29,6 +29,13 @@ public class Sale {
 	public Sale() {
 	}
 
+	public Sale(Long id, Double amount, LocalDate date, Seller seller) {
+		this.id = id;
+		this.amount = amount;
+		this.date = date;
+		this.seller = seller;
+	}
+
 	public Long getId() {
 		return id;
 	}
